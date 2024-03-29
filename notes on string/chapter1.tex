@@ -466,7 +466,7 @@ H &=p_{-} \partial_{\tau} x^{-}-L+\int_{0}^{\ell} \dif \sigma\: \Pi_{i} \partial
 
 $X^\pm$也满足波动方程. $X^-$需要一点运算. 在(\ref{bound-mu-i})下, 波动方程的一般解为
 \begin{equation}
-X^{i}(\tau, \sigma)=x^{i}+\frac{p^{i}}{p^{+}} \tau+\mi\left(2 \alpha^{\prime}\right)^{1 / 2} \sum_{n=-\infty \atop n \neq 0}^{\infty} \frac{1}{n} \alpha_{n}^{i} \exp \left(-\frac{\pi \mi n c \tau}{\ell}\right) \cos \frac{\pi n \sigma}{\ell} \label{1.3.22}
+X^{i}(\tau, \sigma)=x^{i}+\frac{p^{i}}{p^{+}} \tau+\mi\left(2 \alpha^{\prime}\right)^{1 / 2} \sum_{\substack{n=-\infty  \\  n \neq 0}}^{\infty} \frac{1}{n} \alpha_{n}^{i} \exp \left(-\frac{\pi \mi n c \tau}{\ell}\right) \cos \frac{\pi n \sigma}{\ell} \label{1.3.22}
 \end{equation}
 $X^i$是实的, 要求$\alpha_{-n}^{i}=\left(\alpha_{n}^{i}\right)^{\dagger}$. 定义质心变量
 \begin{subequations}
@@ -494,7 +494,7 @@ p^{i}(\tau)&=\int_{0}^{\ell} \dif \sigma\: \Pi^{i}(\tau, \sigma)=\frac{p^{+}}{\e
 \end{subequations}
 \begin{proof}
     \eqref{1.3.24b}, \eqref{1.3.25a}, \eqref{1.3.25b}三式构成因果循环, 知其二, 可推其三. 这里假定知后两个, 证第一个. 引入符号
-\[\sideset{}{'}\sum={\sum_{n=-\infty\atop n \neq 0}^{+\infty} }\]
+\[\sideset{}{'}\sum={\sum_{\substack{n=-\infty \\  n \neq 0}}^{+\infty} }\]
 根据\eqref{1.3.18}和\eqref{1.3.22}可以得到
 \begin{align}
 \Pi^{i}(\tau, \sigma)
@@ -693,7 +693,7 @@ S^{23} \leq 1+\alpha^{\prime} m^{2}
 \begin{equation}
 \begin{aligned}
 X^{i}(\tau, \sigma) &=x^{i}+\frac{p^{i}}{p^{+}} \tau+\mi\left(\frac{\alpha^{\prime}}{2}\right)^{1 / 2} \\
-& \times \sum_{n=-\infty \atop n \neq 0}^{\infty}\left\{\frac{\alpha_{n}^{i}}{n} \exp \left[-\frac{2 \pi \mi n(\sigma+c \tau)}{\ell}\right]+\frac{\tilde{\alpha}_{n}^{i}}{n} \exp \left[\frac{2 \pi \mi n(\sigma-c \tau)}{\ell}\right]\right\} \label{general-periodic-solution}
+& \times \sum_{\substack{n=-\infty  \\  n \neq 0}}^{\infty}\left\{\frac{\alpha_{n}^{i}}{n} \exp \left[-\frac{2 \pi \mi n(\sigma+c \tau)}{\ell}\right]+\frac{\tilde{\alpha}_{n}^{i}}{n} \exp \left[\frac{2 \pi \mi n(\sigma-c \tau)}{\ell}\right]\right\} \label{general-periodic-solution}
 \end{aligned}
 \end{equation}
 在闭弦中, 有两组独立的振荡解$\alpha_{n}^{i}, \tilde{\alpha}_{n}^{i}$, 分别对应沿弦向左和向右运动的波. 在开弦中, 端点处的边界条件将这些混在一起. 独立的自由度又一次是横向振荡及横向与纵向的质心变量：

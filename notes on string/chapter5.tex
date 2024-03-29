@@ -293,8 +293,7 @@ CKVs 是使得 $\delta g_{a b}=0 $的\eqref{5.2.4}, 对方程求迹唯一确定�
 $S$-矩阵的路径积分是
 	\begin{align}
 		&S_{j_{1} \ldots j_{n}}(k_{1}, \ldots, k_{n})  \nonumber \\
-		&\qquad=\sum_{\text{compact} \atop
-				\text {topologies}} \int \frac{[\dif \phi \,\dif g]}{V_{\text {diff }} \times \text { Weyl }} 
+		&\qquad=\sum_{\substack{\text{compact} \\ \text {topologies}}} \int \frac{[\dif \phi \,\dif g]}{V_{\text {diff }} \times \text { Weyl }} 
 				\exp (-S_{\mathrm{m}}-\lambda \chi) \prod_{i=1}^{n} \int \dif^{2} \sigma_{i} \: g(\sigma_{i})^{1 / 2} 
 				\mathscr{V}_{j_{i}}(k_{i}, \sigma_{i}) \:, \label{5.3.1}
 	\end{align}
@@ -314,7 +313,7 @@ $S$-矩阵的路径积分是
 
 将\eqref{5.3.3}代入路径积分\eqref{5.3.1}, 并使用与之前相同步骤给出
 	\begin{align}
-		S_{j_{1} \ldots j_{n}}(k_{1}, \ldots, k_{n})=& \sum_{\text{compact}\atop \text{topologies} } \int_{F} \dif^{\mu} t \: 
+		S_{j_{1} \ldots j_{n}}(k_{1}, \ldots, k_{n})=& \sum_{\substack{\text{compact}\\ \text{topologies}} } \int_{F} \dif^{\mu} t \: 
 		\Delta_{\mathrm{FP}}(\hat{g}(t), \hat{\sigma}) \int[\dif \phi] \int \prod_{(a, i) \notin f} \dif \sigma_{i}^{a}  \nonumber \\	
 		&\times \exp \Bigl(-S_{\mathrm{m}}[\phi, \hat{g}(t)]-\lambda \chi\Bigr)
 		 \prod_{i=1}^{n}\Bigl[\hat{g}(\sigma_{i})^{1 / 2} \mathscr{V}_{j_{i}}(k_{i} ; \sigma_{i})\Bigr] \:. \label{5.3.4}
@@ -360,7 +359,7 @@ x_{a i}  &\rightarrow \eta_{a i}  \:,\label{5.3.7c} \\
 $S$-矩阵的完整表达式是
 	\begin{align}
 		&S_{j_{1} \ldots j_{n}}(k_{1}, \ldots, k_{n})
-		=\sum_{ \text{compact} \atop \text{topologies} } \int_{F} \frac{\dif^{\mu} t}{n_{R}} \int[\dif \phi \,\dif b\, \dif c] \exp (-S_{\mathrm{m}}-S_{\mathrm{g}}-\lambda \chi) \nonumber  \\
+		=\sum_{\substack{\text{compact} \\ \text{topologies}}} \int_{F} \frac{\dif^{\mu} t}{n_{R}} \int[\dif \phi \,\dif b\, \dif c] \exp (-S_{\mathrm{m}}-S_{\mathrm{g}}-\lambda \chi) \nonumber  \\
 		&\qquad \quad \times \prod_{(a, i) \notin f} \int \dif \sigma_{i}^{a} \prod_{k=1}^{\mu} \frac{1}{4 \pi}(b, \partial_{k} \hat{g}) 
 		\prod_{(a, i) \in f} c^{a}(\hat{\sigma}_{i}) \prod_{i=1}^{n} \hat{g}(\sigma_{i})^{1 / 2} \mathscr{V}_{j_{i}}(k_{i}, \sigma_{i})\:.\label{5.3.9}
 	\end{align}
@@ -581,9 +580,7 @@ $(m n)$ 项关于 $m$ 和 $n$对称, 但这并不显然. 每个围道要么闭�
 \end{equation}
 其中 $C$ 是如图所示环绕顶点算符的任意围道.那么, S矩阵的完整表达式可以紧凑的写成
 \begin{equation}
-	S(1 ; \ldots ; n)=\sum_{
-			\text { compact } \atop \text { topologies }
-	} \me^{-\lambda \chi} \int_{F} \frac{\dif^{m} t}{n_{R}}\Biggl\langle\prod_{k=1}^{m} B_{k} \prod_{i=1}^{n} \hat{\mathscr{V}}_{i}\Biggr\rangle \:.\label{5.4.19}
+	S(1 ; \ldots ; n)=\sum_{\substack{\text{ compact } \\ \text{ topologies }}} \me^{-\lambda \chi} \int_{F} \frac{\dif^{m} t}{n_{R}}\Biggl\langle\prod_{k=1}^{m} B_{k} \prod_{i=1}^{n} \hat{\mathscr{V}}_{i}\Biggr\rangle \:.\label{5.4.19}
 \end{equation}
 这里,  $B_{k}$是$b$鬼插入\eqref{5.4.15}的简写, 而$\hat{\mathscr{V}}$ 对于闭弦代表 $\tilde{c} c \mathscr{K}_{\mathrm{m}}$, 
 对于开弦代表 $t_{a} c^{a} \mathscr{V}_{\mathrm{m}}$. 即, 我们现在将所有的顶点算符处理成固定的, 并将它们的坐标换成传递函数中的额外参量. 模的数目$m$是
